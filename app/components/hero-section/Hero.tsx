@@ -95,7 +95,7 @@ export default function Hero() {
         >
           <p className="text-white/60 inline">I&apos;m </p>
           <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+            Muhammad Faizan
           </span>
           <p>a Software Engineer</p>
         </motion.h1>
@@ -105,7 +105,7 @@ export default function Hero() {
           animate={animateIn2}
           className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
-          currently focused on building user experiences that drive growth.
+          Currently focused on building Web Applications with Django Framework.
         </motion.p>
       </div>
 
@@ -119,11 +119,12 @@ export default function Hero() {
           animate={animateIn1}
         >
           <Image
-            src="/transparent-ade-min.png"
+            src="/profile image.png"
             priority
             fill
-            alt="Ade's picture"
+            alt="Faizan's picture"
             className="bg-image-radial px-10 pt-20"
+
           />
         </motion.div>
       </div>

@@ -13,50 +13,48 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
+      title: "NStar Point Of Sale",
       // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      liveLink: "#",
       about:
-        "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/offset-folio.svg",
+        "A unique point of sale system for a fictional company that allows users to manage their inventory, sales, and customers. It features a user-friendly interface and a range of features to help users manage their business.Allow Users To Sign in With their ID and Give Different Permissions To Different Users.",
+      stack: ["Django", "Python", "HTML", "CSS", "JavaScript","Oracle Database"],
+      img: "/nstar.jpg",
+
+
+
     },
     {
-      title: "Shortly",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://lnk-shortener.netlify.app/",
+      title: "Task Manager",
+      gitLink: "https://github.com/Fzanrmzan/Taskmanager",
+      liveLink: "https://github.com/Fzanrmzan/Taskmanager",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/shortly.svg",
+        " Task Manager is a web application that allows users to manage their tasks. It features a user-friendly interface and a range of features to help users manage their tasks .",
+      stack: ["Django", "Python", "HTML", "CSS", "JavaScript","mysql"],
+      img: "/task.png",
+
     },
     {
-      title: "Where in the world",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
+      title: "ChatBotify",
+      gitLink: "https://github.com/Fzanrmzan/Faizanportfolio",
+      liveLink: "https://github.com/Fzanrmzan/Faizanportfolio",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
-      img: "/witw.svg",
+        " Ai chatbot that can answer questions and help with tasks Also Give Suggestions For The User.",
+      stack: ["Django", "Python", "HTML", "CSS", "JavaScript","mysql"],
+      img: "/chatbot.jpg",
+
     },
     // {
     //   title: "Yourtodo",
-    //   gitLink: "https://github.com/adex-hub/Yourtodo",
-    //   liveLink: "https://yourtodo-v1.vercel.app/",
+    //   gitLink: "https://github.com/Fzanrmzan/Faizanportfolio",
+    //   liveLink: "https://github.com/Fzanrmzan/Faizanportfolio,
     //   about:
+
     //     "This task management system lets you customize your name, add, delete, and edit tasks, and celebrates you when tasks are completed. It features built-in notifications and stores data in the browser, allowing you to resume tasks conveniently. Designed and developed by yours truly.",
     //   stack: ["react", "javascript", "figma", "sass"],
     //   img: "/todo.svg",
     // },
-    {
-      title: "Multi-step form",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://ade-loremgaming.netlify.app/",
-      about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
-      img: "/multistep.svg",
-    },
+    
   ];
 
   const { ref, inView } = useInView({

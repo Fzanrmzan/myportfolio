@@ -40,12 +40,13 @@ export default function About() {
             point B and iteratively improve as time goes on.
           </AnimatedBody>
           <AnimatedBody className="leading-[34px] md:leading-[39px]">
-            From writing my first lines of code back in late 2019 to this point
+            From writing my first lines of code back in late 2020 to this point
             I have continually refined my development skills overtime picking up
-            UI/UX design on the way & solving complex challenges increasing the
+           Backend Development on the way & solving complex challenges increasing the
             complexity as time goes by to ensure improvement.
           </AnimatedBody>
           <AnimatedBody className="inline leading-[34px] md:leading-[39px]">
+
             Each challenge is unique so I ensure that I learn and grow through
             each one ensuring that I not only put in my best but also deliver
             solutions that businesses are proud to call their own. Wanna learn
@@ -69,24 +70,23 @@ export default function About() {
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              Frontend Tools
+              Backend Development Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Redux
-              Toolkit, React Query, HTML5, Git/GitHub, React Hook Form, Formik.
+              Django, Python, SQL,Oracle Database, Git/GitHub, Docker, AWS.
             </AnimatedBody>
           </div>
           <div>
+
             <AnimatedTitle
               wordSpace={"mr-[0.5ch]"}
               charSpace={"mr-[0.001em]"}
               className="font-bold antialiased text-xl md:text-2xl mb-2"
             >
-              UI Libraries
+              Frontend Development Tools
             </AnimatedTitle>
             <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">
-              CSS3/SCSS/SASS, Tailwind CSS, Styled Components, Chakra UI, Framer
-              Motion, Bootstrap, ReCharts.
+             HTML, CSS, JavaScript,TypeScript,Bootstrap,Tailwind CSS,
             </AnimatedBody>
           </div>
           <div>

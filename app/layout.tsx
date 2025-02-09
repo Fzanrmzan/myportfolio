@@ -10,16 +10,20 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adeola Badero — Frontend Software Engineer",
+  title: "Muhammad Faizan — Software Engineer",
   description:
-    "A Frontend Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    "A Software Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
   keywords: [
+    "django",
+    "python",
+    "backend",
     "frontend",
     "react",
     "tech",
     "creative developer",
     "UI development",
     "frontend engineer",
+
     "developer portfolio",
     "creative development",
     "nigeria",
@@ -29,23 +33,27 @@ export const metadata: Metadata = {
     "portfolio",
   ],
   openGraph: {
-    title: "Adeola Badero — Frontend Software Engineer",
+    title: "Muhammad Faizan — Software Engineer",
     description:
-      "Frontend Engineer formerly at Bluechip Technologies, passionate about crafting next-gen software and creative websites. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    url: "https://www.adeolabadero.me",
-    siteName: "www.adeolabadero.me",
+      "Software Engineer formerly at Bluechip Technologies, passionate about crafting next-gen software and creative websites. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    url: "https://www.faizan.me",
+
+    siteName: "www.instagram.com/faizanramzan4",
+
     images: [
       {
         url: "https://i.ibb.co/FKMqc28/adeola-badero.png",
         width: 1200,
         height: 630,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Muhammad Faizan — Software Engineer",
       },
+
       {
         url: "https://i.ibb.co/Y8hBTR4/ade-800.png",
         width: 800,
         height: 800,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Muhammad Faizan — Software Engineer",
+
       },
     ],
     locale: "en-US",
@@ -53,11 +61,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adeola Badero — Software Engineer",
+    title: "Muhammad Faizan — Software Engineer",
     description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@Ade_the_great",
+      "Software Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    
+    creator: "@faizanramzan4",
     images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
+
   },
   robots: {
     index: true,
